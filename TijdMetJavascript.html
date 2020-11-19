@@ -7,19 +7,12 @@
         <body>
       <h1>Tijd met javaScript</h1>
       <input type="button" value="klik op mij" id= "mijnButton"/>
-     
      <script>
        let mijnButton = document.getElementById('mijnButton');
-
-      mijnButton.addEventListener('click', ()=>{
-
-        window.alert('werkt jullie code al?');
-
-        
-      })
-
-       
-
+       mijnButton.addEventListener('click',()=>{
+       let datum = new Date();//Datum is de data
+       window.alert(datum + "Hoi, mijn naam is Jamie. Ik ben 16 jaar oud");
+       })
       </script>
     
 </body>
