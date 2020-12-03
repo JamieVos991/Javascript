@@ -13,7 +13,7 @@
     })
 
     function main(){
-         let dezeTextWordtHet = makeThisSentence(randomizer);
+         let dezeTextWordtHet = makeThisSentence();
          myText.innerHTML = dezeTextWordtHet;
          sayItLoud(dezeTextWordtHet); // say something nice say it loud
          selectThisImage(); // show a nice image
@@ -30,8 +30,10 @@
     function makeThisSentence(){
         let index = randomizer(arrayLength);
         let woord1 = onderwerp[index];
-        let woord2 = werkwoord[index];
-        let woord3 = restwoord[index];
+        let index2 = randomizer(arrayLength);
+        let woord2 = werkwoord[index2];
+        let index3 = randomizer(arrayLength);
+        let woord3 = restwoord[index3];
         let outputString = woord1 + " " + woord2 + " " + woord3;
         return outputString;
     }
