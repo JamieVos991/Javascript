@@ -3,7 +3,7 @@ const quiz1 =
     "quizID": "Museum 1",
     "quizMetaData":
     {
-        "title": "Lisser Art Museum",
+        "title": "Quiz lol",
         "imageURI": "https://i.ytimg.com/vi/QqjnlQ55Jnw/maxresdefault.jpg"
 
     },
