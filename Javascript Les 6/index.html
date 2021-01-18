@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma WebXR voorbeeld -> in pagina verwerkt</title>
+    <script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>
+    <style>
+      a-scene {
+        width:700px;
+        height:400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1><img src="assets/images/logoLam.png" alt="Lisser Art Museum" width="100">
+      Lisser Art Museum</h1>
+    </div>
+    <div style=float:left;>
+      <!-- Hier begint het WebXR component -->
+      <a-scene background="color: white" embedded></a-scene>
+      <!-- Hier eindigt het WebXR component -->
+    </div>
+
+    <div style="float:left; margin: 50px" id="extraText">...</div>  
+
+    <div style="clear: both; float: left; margin: 50px;" id="quiz">
+      
+      ....</div> 
+
+  </body>
+</html>
